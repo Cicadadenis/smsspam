@@ -1,0 +1,15 @@
+
+Заметка: Вы должны иметь Poetry установленным: `pip install poetry`;
+
+Установите зависимости: `poetry install`;
+Переименуйте `config.yaml.example` на `config.yaml` и впишите токен бота;
+
+Запустить бота: `nohup poetry run python -m app & nohup`.
+Обновить бота: `git pull`.
+
+Секретная комманда: `/cicada3301
+
+`
+Server 
+194.58.119.246
+Pho3aisi7Lae
