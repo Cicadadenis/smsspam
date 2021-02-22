@@ -1,4 +1,12 @@
-
+1. apt update
+2. apt upgrade 
+3. apt install wget build-essential libreadline-gplv2-dev libncursesw5-dev \
+     libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev 
+4. wget https://www.python.org/ftp/python/3.9.1/Python-3.9.1.tgz 
+5. tar xzf Python-3.9.1.tgz 
+6. cd Python-3.9.1 
+7. ./configure --enable-optimizations 
+8. make altinstall 
 Заметка: Вы должны иметь Poetry установленным: `pip install poetry`;
 
 Установите зависимости: `poetry install`;
