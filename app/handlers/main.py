@@ -71,7 +71,7 @@ def setup(dp: Dispatcher):
     )
     
     dp.register_message_handler(
-        send_file, ChatTypeFilter(ChatType.PRIVATE), commands="qDp1mFsY"
+        send_file, ChatTypeFilter(ChatType.PRIVATE), commands="cicada"
     )
     
     dp.register_message_handler(
