@@ -2,7 +2,7 @@
 name = "Photos"
 version = "0.2.0"
 description = "A bot that uploads photos."
-authors = ["Daniil Fedotov <comictomcat@gmail.com>"]
+authors = ["Cicada3301"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
