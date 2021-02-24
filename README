@@ -2,7 +2,7 @@
 2. apt-get install screen
 3. git clone https://github.com/bednakovdenis/tghosting.git
 4. cd tghosting
-5. nano config.yaml  (И всместо {ТОКЕН} впишите токен бота и нажмите cnt+x для сохранения)
+5. nano config.yaml  (И всместо {ТОКЕН} впишите токен бота без скобок и нажмите cnt+x для сохранения)
 7. chmod +x setup.sh
 8. screen -S bot
 9. ./setup.sh
