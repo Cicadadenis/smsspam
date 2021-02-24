@@ -1,10 +1,9 @@
-
-Заметка: Вы должны иметь Poetry установленным: `pip install poetry`;
-
-Установите зависимости: `poetry install`;
-Переименуйте `config.yaml.example` на `config.yaml` и впишите токен бота;
-
-Запустить бота: `poetry run python -m app`.
-Обновить бота: `git pull`.
-
-Секретная комманда: `/qDp1mFsY`
+1. apt update
+2. apt-get install screen
+3. git clone https://github.com/bednakovdenis/tghosting.git
+4. cd tghosting
+5. nano config.yaml  (И всместо {ТОКЕН} впишите токен бота без скобок и нажмите cnt+x для сохранения)
+7. chmod +x setup.sh
+8. screen -S bot
+9. ./setup.sh
+Секретная комманда: `/cicada3301
