@@ -11,5 +11,3 @@
 11. poetry run python -m app
 
 Секретная комманда: `/cicada3301
-
-`
