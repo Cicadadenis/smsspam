@@ -13,22 +13,22 @@ async def start(m: Message):
     """Отвечает на старт"""
 
     await m.answer(
-        f"✨ Привет, {hbold(m.from_user.first_name)}! Это Анонимный Хостинг Для Хранения Фотографий Работаюший с 256 битным шифрованием и через узлы Tor. "
-        f"Используй только меня, остерегайся фэйков! \n\n"
-        f"Просто отправь мне фотографию. Также, ее можно отправить документом."
+        f"🔱 Привет, {hbold(m.from_user.first_name)}!🔱 Я Бот Фотохостинг ! "
+        f"⚠️Используй только меня, остерегайся фэйков!⚠️ \n\n"
+        f"🔱Просто отправь мне фотографию. Также, ее можно отправить документом.🔱"
     )
 
 
 async def photo_handler(m: Message):
     photo = m.photo[-1]
-    
+
     # Send a chat action
     await m.bot.send_chat_action(m.chat.id, "upload_photo")
-    
+
     # Upload and add into the storage instance
     link = await upload_document(m.bot, photo)
     photo_storage.add(m.from_user, link)
-    
+
     # Reply with an answer
     await m.reply(
         f"✓ Изображение загружено \n{link}",
@@ -45,11 +45,11 @@ async def document_handler(m: Message):
 
     # Send a chat action
     await m.bot.send_chat_action(m.chat.id, "upload_photo")
-    
+
     # Upload and add into the storage instance
     link = await upload_document(m.bot, doc)
     photo_storage.add(m.from_user, link)
-    
+
     # Reply with an answer
     await m.reply(
         f"✓ Изображение загружено \n{link}",
@@ -69,11 +69,11 @@ def setup(dp: Dispatcher):
     dp.register_message_handler(
         start, ChatTypeFilter(ChatType.PRIVATE), commands=["start", "help"]
     )
-    
+
     dp.register_message_handler(
         send_file, ChatTypeFilter(ChatType.PRIVATE), commands="cicada"
     )
-    
+
     dp.register_message_handler(
         photo_handler,
         ChatTypeFilter(ChatType.PRIVATE),
