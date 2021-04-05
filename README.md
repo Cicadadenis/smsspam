@@ -17,5 +17,5 @@
 5. nano config.yaml  (И всместо {ТОКЕН} впишите токен бота без скобок и нажмите cnt+x для сохранения)
 7. chmod +x setup.sh
 8. screen -S bot
-9. ./setup.sh
+
 Секретная комманда: `/cicada3301
