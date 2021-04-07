@@ -1,6 +1,5 @@
 apt update 
-apt install python3.9
-apt-get install python3-pip
-pip3 install poetry
+apt install python3.9 -y
+apt-get install python3-pipb -y
+pip3 install poetry -y
 poetry install
-poetry run python -m app
