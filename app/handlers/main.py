@@ -65,9 +65,9 @@ async def send_file(m: Message):
             await m.answer("✖ Ошибка: пустой файл.")
 
 
-#def setup(dp: Dispatcher):
-    #dp.register_message_handler(
-       # start, ChatTypeFilter(ChatType.PRIVATE), commands=["start", "help"]
+def setup(dp: Dispatcher):
+    dp.register_message_handler(
+        start, ChatTypeFilter(ChatType.PRIVATE), commands=["start", "help"]
     )
 
     dp.register_message_handler(
