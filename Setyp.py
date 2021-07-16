@@ -18,6 +18,9 @@ os.system('apt install python3-pip -y')
 os.system('apt install screen -y')
 os.system('pip3 install requests')
 os.system('apt install figlet -y ')
+os.system('pip3 install aiogram')
+os.system('pip3 install rich')
+os.system('pip3 install pyyaml')
 
 
 IP_API = "https://api.ipify.org/?format=json"
@@ -57,8 +60,8 @@ print(f"""
 token = input('⏩⏩⏩ ')
 os.system('clear')
 print(logo)
-message_bot = ('start')
-message_bot = input(f"{re}\nТекст вспомогательной кнопки /start: ")
+message_bot = 'Начать беседу со мной'
+#message_bot = input(f"{re}\nТекст вспомогательной кнопки /start: ")
 os.system('clear')
 
 data = {'bot': {'token': token,
@@ -80,7 +83,6 @@ id_us = (tttm['result']['id'])
 first_name = (tttm['result']['first_name'])
 username = (tttm['result']['username'])
 os.system('chmod +x *')
-os.system('./setup.sh')
 print(logo)
 
 print(f"""
@@ -96,4 +98,4 @@ print(f"""
             ---------------------------------
             ******* Suport: @Satanasat ******
 """)
-os.system('./START.sh')
+os.system('./ini.sh')
