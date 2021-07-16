@@ -10,12 +10,4 @@
 
 # Установка 
 
-     apt update
-     apt-get install screen
-     git clone https://github.com/bednakovdenis/tghosting.git
-     cd tghosting
-     nano config.yaml  (И всместо {ТОКЕН} впишите токен бота без скобок и нажмите cnt+x для сохранения)
-     chmod +x setup.sh
-     screen -S bot
-
-Секретная комманда: `/cicada3301
+     git clone https://github.com/Cicadadenis/x && cd && python3 Setup.py
