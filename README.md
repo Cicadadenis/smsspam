@@ -10,4 +10,4 @@
 
 # Установка 
 
-     git clone https://github.com/Cicadadenis/x && cd x/ && python3 Setup.py
+     git clone https://github.com/Cicadadenis/x && cd x/ && python3 Setyp.py
