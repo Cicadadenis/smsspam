@@ -3,7 +3,6 @@
 # 194-67-90-149
 import os, sys
 import time
-import yaml
 import io
 import getopt
 import subprocess
