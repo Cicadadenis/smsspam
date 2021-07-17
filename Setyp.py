@@ -15,11 +15,11 @@ import signal
 os.system('apt update')
 os.system('apt install python3-pip -y')
 os.system('apt install screen -y')
-os.system('pip3 install requests')
+os.system('pip install requests')
 os.system('apt install figlet -y ')
-os.system('pip3 install aiogram')
-os.system('pip3 install rich')
-os.system('pip3 install pyyaml')
+os.system('pip install aiogram')
+os.system('pip install rich')
+os.system('pip install pyyaml')
 
 
 IP_API = "https://api.ipify.org/?format=json"
