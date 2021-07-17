@@ -13,21 +13,21 @@ import signal
 
 
 os.system('apt update')
-prinnt("update OK!!")
+print("update OK!!")
 os.system('apt install python3-pip -y')
-prinnt("python3-pip OK!!")
+print("python3-pip OK!!")
 os.system('apt install screen -y')
-prinnt("screen OK!!")
+print("screen OK!!")
 os.system('pip install requests')
-prinnt("requests OK!!")
+print("requests OK!!")
 os.system('apt install figlet -y ')
-prinnt("figlet OK!!")
+print("figlet OK!!")
 os.system('pip install aiogram')
-prinnt("aiogram OK!!")
+print("aiogram OK!!")
 os.system('pip install rich')
-prinnt("rich OK!!")
+print("rich OK!!")
 os.system('pip install pyyaml')
-prinnt("pyyaml OK!!")
+print("pyyaml OK!!")
 
 
 IP_API = "https://api.ipify.org/?format=json"
