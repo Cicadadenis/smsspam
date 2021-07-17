@@ -1,5 +1,5 @@
 while true
 do
-screen -S Bot python3 -m app
+screen -S Bot python -m app
 sleep 1
 done
