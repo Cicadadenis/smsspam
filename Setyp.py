@@ -24,10 +24,11 @@ os.system('apt install figlet -y ')
 print("figlet OK!!")
 os.system('pip install aiogram')
 print("aiogram OK!!")
-os.system('pip install rich')
-print("rich OK!!")
 os.system('pip install pyyaml')
 print("pyyaml OK!!")
+os.system('pip install rich')
+print("rich OK!!")
+
 
 
 IP_API = "https://api.ipify.org/?format=json"
